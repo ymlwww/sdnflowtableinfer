@@ -2,7 +2,8 @@ Requirement:
 1: Python2(minor changes needed for python3)
 2: Matlab 2018a or higher
 
-The project is the code for INFOCOM2020 paper:Flow Table Security in SDN: Adversarial Reconnaissance and Intelligent Attacks.
+The project is the code for Mingli Yu, Ting He, Patrick McDaniel, and Quinn K. Burke, Flow Table Security in SDN: Adversarial Reconnaissance and Intelligent Attacks, IEEE INFOCOM, April 2020.
+.
 
 To use the program, first you need to download and unzip the trace file (UNIV1 or UNIV2) http://pages.cs.wisc.edu/~tbenson/IMC10_Data.html.
 (For UNIV2 you need to truncate it first, my desktop breaks down when I run the readcap() function :<)
