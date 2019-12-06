@@ -1,0 +1,18 @@
+Requirement: 
+1: Python2(minor changes needed for python3)
+2: Matlab 2018a or higher
+
+The project is the code for INFOCOM2020 paper:Flow Table Security in SDN: Adversarial Reconnaissance and Intelligent Attacks.
+
+To use the program, first you need to download and unzip the trace file (UNIV1 or UNIV2) http://pages.cs.wisc.edu/~tbenson/IMC10_Data.html.
+(For UNIV2 you need to truncate it first, my desktop breaks down when I run the readcap() function :<)
+
+Then you can finish the trace preprocess. In the directory, use tracereader.py to extrace key information and use zipfit.py to estimate the 
+alpha parameter. Then you can use hard.py to obtain samples with short time periods to run experiments. Since json cant be used for
+maltab program, directransfer.py can help translate json to mat data file.
+
+As the codes in infer_attack, go to check to Readme.txt inside the directory. The codes correspond to all the figures and experiments in the paper.
+
+Welcome for any suggestions!
+
+To use the code, please site the paper.
