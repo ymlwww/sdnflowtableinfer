@@ -70,16 +70,6 @@ poisson_trace.m: generate a Poisson point process (just timestamps, not the cont
 
 attack_trace.m: generate n Poisson processes with given rates (possibly unequal), each with a distinct content ID; for DoS attack 
 
-*****************************************
-*                 subfolders            *
-*****************************************
-
-.: .m files
-./plot: plots in .eps and .fig 
-./data: data in .mat
-./debug: temporary data for debugging
-
-
 NOTE: all the files named with wrong mean that estimated parameters are used for the attack or inference
 
 
